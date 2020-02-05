@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/17ba1148b8.js" crossorigin="anonymous"></script>
+    <title>自己紹介</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title section-title">taichi takatsuji<i class="fas fa-dog"></i></h1>
+        <div class="menu-trigger js-toggle-sp-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="iphone-menu js-toggle-sp-menu-target">
+            <ul class="menu">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="hero-banner"><h2>My intoroduction...</h2></section>
+        <section id="about" class="site-width">
+            <h2 class="section-title">ABOUT</h2>
+            <p>・元々はスポーツトレーナーの専門学校を卒業後、名古屋にてストレッチトレーナーを約１年半行う。</p>
+            <p>・エンジニア未経験ですが、現在はオンラインスクールにてプログラミングを学習中</p>
+            <p>・トレーナーをしている時にエンジニアのお客様に出会い、興味を持つ。</p>
+            <p>・progateで学習していく中でプログラミングでサイトを構築していく楽しさを知り、本格的にプログラマの道に進み始める。</p>
+            <p>・プログラマと言えばサーバーサイドのイメージが強いが、絵を描いたり、デザインすることが昔から好きであり<br>
+               よりやりたい事追求した結果フロントエンドの方向に進んでいきたいと思いました。</p>
+            <p>・主にマークアップ言語からjavascriptなどフロントエンジニアに必要なスキルを学習していますが<br>
+                フルスタックエンジニアになれるようにPHP言語も少しではありますが学んでいます。</p>
+            <p>・なので経験を積んでいきいづれはサーバーサイドも携われるようになりたいと考えております。</p>
+        </section>
+        <section  id="skill"class="site-width">
+            <h2 class="section-title">SKILL</h2>
+            <span class="skill-items section-title">
+                HTML5<i class="fab fa-html5"></i>
+            </span>
+            <span class="skill-items section-title">
+                CSS3<i class="fab fa-css3-alt"></i>
+            </span>
+            <span class="skill-items section-title">
+                Javascript<i class="fab fa-node-js"></i>
+            </span>
+            <span class="skill-items section-title">
+                PHP<i class="fab fa-php"></i>
+            </span>
+
+        </section>
+        <section id="interest" class="site-width">
+          <h2 class="section-title">My INTEREST</h2>
+           <div class="photo-container">
+            <div class="photo section-title"><span>NETFLIX</span><img src="img/netflix.jpg" alt=""></div>
+            <div class="photo section-title"><span>WORKOUT</span><img src="img/workout.jpg" alt=""></div>
+            <div class="photo section-title"><span>ENGLISH</span><img src="img/english.jpg" alt=""></div>
+            <div class="photo section-title"><span>HOTSPRING</span><img src="img/hotspring.jpg" alt=""></div>
+            <div class="photo section-title"><span>ANIMAL</span><img src="img/pet.jpg" alt=""></div>
+            <div class="photo section-title"><span>CAMERA</span><img src="img/camera.jpg" alt=""></div>
+           </div>
+        </section>
+        <section id="contact" class="form-container site-width">
+            <h2 class="section-title">CONTACT</h2>
+            <form action="" method="post" class="form">
+                <input type="text" name="name" placeholder="name" class="form-text"><br>
+                <input type="email" name="email" placeholder="email" class="form-text"><br>
+                <textarea class="js-counter-text form-text form-text-area"name="comment" placeholder="comment "></textarea><br>
+                <button class="submit" name="submit">送信</button>
+                <div><span class="counter">0</span>/100</div>
+            </form>
+        </section>
+    
+    <footer class="footer section-title"id="footer">
+        Copyrights@sample.com
+    </footer>
+</main>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
